@@ -9,11 +9,11 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  7_dwarfs = []
+  hash = []
   %w(array).each_with_index {|items, index|
-  7_dwarfs{items} = index
+  hash{items} = index
 
-  7_dwarfs
+  hash
 
 
   # Use `each_with_index` to enumerate over the provided array
