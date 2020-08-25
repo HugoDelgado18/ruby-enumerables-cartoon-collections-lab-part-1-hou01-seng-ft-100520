@@ -11,6 +11,7 @@ end
 def list_dwarves(array)
 
   array.each_with_index { |item, index|
+    new_index = index + 1
     puts "#{index}.*#{item}"
   }
 
