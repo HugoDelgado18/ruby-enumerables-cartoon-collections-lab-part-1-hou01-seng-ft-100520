@@ -14,7 +14,7 @@ def list_dwarves(array)
   7_dwarfs{items} = index
 
   7_dwarfs
-  
+
 
   # Use `each_with_index` to enumerate over the provided array
   #
