@@ -12,7 +12,7 @@ def list_dwarves(array)
 
   %w(array).each_with_index {|items, index|
   hash{items} = index
-
+  }
   hash
 
 
